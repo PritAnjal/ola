@@ -1,0 +1,9 @@
+database:
+  host: "![qXGbUhRaQmlhHUc/EN1RFuacJnZrNuYa5Rx1wfvHMVU=]"
+  port: "![OVHIkT8xUXqffNteYz4ixg==]"
+  databaseName: "![M3QbFNz9edJow0WEcFBg0g==]"
+  password: "![dQPO+rFhN4YAnT8iX8foYA==]"
+  username: "![M3QbFNz9edJow0WEcFBg0g==]"
+http:
+  host: "0.0.0.0"
+  port: "8081"

@@ -1,0 +1,48 @@
+#%RAML 1.0
+title: bookmyholiday-ola-sys-api
+
+uses: 
+  carbooking_lib: exchange_modules/b05fe434-a8a3-45ed-b199-2b33ce750dbe/bookmyholiday-car-library/1.0.0/bookmyholiday-library.raml
+  
+/ola:
+  get:
+    description: get cars available from ola partner
+    is: carbooking_lib.error_responses_trait
+    responses:
+      200:
+        body:
+          application/json:
+            examples:
+              type: carbooking_lib.get_carbooking_response_datatype[]
+              output: !include exchange_modules/b05fe434-a8a3-45ed-b199-2b33ce750dbe/get_carbooking_response_example/1.0.0/get_carbooking_response_example.raml
+
+  post:
+    description: book a car with ola partner
+    is:
+      - carbooking_lib.error_responses_trait
+    body:
+      application/json:
+        type: carbooking_lib.post_carbooking_request_datatype
+        examples:
+          input: !include exchange_modules/b05fe434-a8a3-45ed-b199-2b33ce750dbe/post_carbooking_request_example/1.0.0/post_carbooking_request_example.raml
+    responses:
+      201:
+        body:
+          application/json:
+            example:
+              output: !include exchange_modules/b05fe434-a8a3-45ed-b199-2b33ce750dbe/post_carbooking_response_example/1.0.0/post_carbooking_response_example.raml
+
+  /{ID}:
+    delete:
+      description: Delete book a car with ola partner
+      is:
+        - carbooking_lib.error_responses_trait
+    
+      responses:
+        201:
+          body:
+            application/json:
+              example:
+                {
+                  message: "Booking has been deleted"
+                }

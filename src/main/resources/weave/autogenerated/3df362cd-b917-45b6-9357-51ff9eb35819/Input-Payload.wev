@@ -1,0 +1,14 @@
+%dw 2.0
+
+type auto_3df362cd_b917_45b6_9357_51ff9eb35819_Input_Payload = {
+  firstName: String, 
+  lastName: String, 
+  noOfSeats: Number, 
+  partner: String, 
+  city: String, 
+  destination: String, 
+  source: String, 
+  typeOfCar: String, 
+  _?: Any
+}
+
