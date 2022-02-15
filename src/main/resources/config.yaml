@@ -1,9 +1,9 @@
 database:
-  host: "![qXGbUhRaQmlhHUc/EN1RFuacJnZrNuYa5Rx1wfvHMVU=]"
+  host: "![/lCRNAhcTKfYCrY/dO2+BegZu6kOJk7Fn6O/4tCklW4UMBtOXN9POsUUUgw0BZSQs3w98PRm+zGvNkmgLU71rA==]"
   port: "![OVHIkT8xUXqffNteYz4ixg==]"
-  databaseName: "![M3QbFNz9edJow0WEcFBg0g==]"
-  password: "![dQPO+rFhN4YAnT8iX8foYA==]"
-  username: "![M3QbFNz9edJow0WEcFBg0g==]"
+  databaseName: "![SHPbZJseOJu2z0l/npTWZQ==]"
+  password: "![kTeSBQcdLDuuMayG25kQAA==]"
+  username: "![OacdLFQyiHCEsD3xj/XQYw==]"
 http:
   host: "0.0.0.0"
   port: "8081"
