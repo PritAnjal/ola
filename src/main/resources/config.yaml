@@ -1,8 +1,8 @@
 database:
-  host: "![/lCRNAhcTKfYCrY/dO2+BegZu6kOJk7Fn6O/4tCklW4UMBtOXN9POsUUUgw0BZSQs3w98PRm+zGvNkmgLU71rA==]"
+  host: "![iQ0zZq0G3mceoL6+iK110um2p/uywUtVhaxAMBuV9X8PKeg61IaLa3Llj595/QNoehgmJedpALHVYXisNFpWRQ==]"
   port: "![OVHIkT8xUXqffNteYz4ixg==]"
   databaseName: "![SHPbZJseOJu2z0l/npTWZQ==]"
-  password: "![kTeSBQcdLDuuMayG25kQAA==]"
+  password: "![2u/Y7zA5RQheGxXFBddoFw==]"
   username: "![OacdLFQyiHCEsD3xj/XQYw==]"
 http:
   host: "0.0.0.0"
